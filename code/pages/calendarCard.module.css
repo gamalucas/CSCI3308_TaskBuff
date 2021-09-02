@@ -1,0 +1,107 @@
+.root {
+    position: relative;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding-left: 2vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+    margin-bottom: 4vh;
+    margin-left: 2vh;
+    margin-right: 1vh;
+    margin-top: 2vh;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.taskNameAndDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.ownedByContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.sharedWithContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.buttonRound {
+    /* border: 1px solid red; */
+    height: 4vh;
+    width: 4vh;
+    margin-right: 1vh;
+}
+
+.taskTitle {
+    /* border: 1px solid red; */
+    color: #006868;
+
+}
+
+.taskTime {
+    /* border: 1px solid red; */
+    color: #02b1b1;
+
+}
+
+.taskDesc {
+    /* border: 1px solid red; */
+    font-size: 13px;
+    color: #8f8f8f;
+
+}
+
+.ownedByLiteral {
+    display: flex;
+    flex-direction: column;
+}
+
+.ownedByTitle {
+    /* border: 1px solid red; */
+    margin-left: 1vh;
+    margin-top: 0;
+    color: #019999;
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+}
+
+.sharedWithList {
+    /* border: 1px solid red; */
+    margin-left: 1vh;
+    margin-top: 0;
+    color: #019999;
+    font-size: 130%;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.sharedWith {
+    border: 0px solid rgb(128, 62, 62);
+
+}

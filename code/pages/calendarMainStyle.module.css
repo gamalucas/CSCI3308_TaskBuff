@@ -1,0 +1,168 @@
+.somethingElse {
+    min-height: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.innerSomethingElse {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.outerContainer {
+    height: 100%;
+}
+
+.bottomPanelTable {
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.navBarStyle {
+    position: relative;
+    -webkit-box-shadow: 0px 2px 5px #3a3a3a;
+    -moz-box-shadow: 0px 2px 5px #3a3a3a;
+    box-shadow: 0px 2px 5px #3a3a3a;
+}
+
+.todayInformationPanel {
+    background-color: #6CEBD5;
+    height: 100vh;
+    width: 65vh;
+    margin-bottom: 0;
+    left: 0;
+    -webkit-box-shadow: 8px 0px 5px #3a3a3a;
+    -moz-box-shadow: 8px 0px 5px #3a3a3a;
+    box-shadow: 8px 0px 5px #3a3a3a;
+}
+
+.today_checkMarkAndPanel {
+    position: relative;
+    padding-top: 1vh;
+    padding-left: 2vh;
+}
+
+.today_description {
+    position: relative;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding-left: 2vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    height: 100%;
+}
+
+.todayBrandTitle {
+    float: left;
+    position: relative;
+    padding-right: 0;
+}
+
+.todayTextTitle {
+    float: right;
+    position: fixed;
+    padding-left: 7vh;
+    font-size: 310%;
+    color: #595959;
+}
+
+.makeShiftLine {
+    height: .3vh;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: 100%;
+    background-color: #595959;
+    color: #595959;
+}
+
+.calendarPanel {
+    /* border: 3px solid black; */
+    height: 100%;
+    margin-bottom: 0;
+    left: 0;
+}
+
+.selectedDayPanel {
+    /* border: 3px solid black; */
+    height: 100%;
+    /* width: 50vw; */
+    margin-bottom: 0;
+    margin-right: 0;
+    left: 0;
+}
+
+.taskCards {
+    height: 40vw;
+    overflow-y: auto;
+}
+
+.cardBottomPadding {
+    height: 0;
+}
+
+.taskCardsFocused {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.informationPanel {
+    /* border: 3px solid black; */
+    height: 100%;
+    margin-bottom: 0;
+    left: 0;
+}
+
+.calendarPanel {
+    margin-top: 0;
+}
+
+.calendarTitlePanel {
+    margin-top: 3vh;
+    color: #4b4b4b; 
+    /* border: 1px solid rgb(179, 255, 0); */
+}
+
+.calendarActualPanel {
+    margin-top: 1vh;
+    height: 80vh;
+    /* background-color: #ebc36f; */
+    /* border: 1px solid rgb(25, 0, 255); */
+    /* border-radius: 25px; */
+    padding-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectedTitlePanel {
+    margin-top: 3vh;
+    color: #4b4b4b; 
+    /* border: 1px solid rgb(179, 255, 0); */
+}
+
+.selectedActualPanel {
+    margin-top: 1vh;
+    height: 80vh;
+    background-color: #e0b69f;
+    /* border: 1px solid rgb(25, 0, 255); */
+    border-radius: 25px;
+    padding-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nameCornerPanel {
+    margin-top: .5vw;
+    margin-bottom: auto;
+}
+

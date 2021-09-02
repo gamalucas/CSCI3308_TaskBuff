@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: #7a5c58;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0.5px;
+  color: #64b6ac;
+}
+
+form {
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+form .input-block {
+  margin-bottom: 20px;
+}
+
+form .input-block label {
+  font-size: 14px;
+  color: gray;
+}
+
+form .input-block input {
+  width: 100%;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #64b6ac;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #64b6ac;
+}
+
+form .btn-login {
+  display: block;
+  min-width: 120px;
+  border: none;
+  background-color: #64b6ac;
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  padding: 7px;
+}
+
+form {
+  overflow: hidden;
+}
+
+/* FORM DISPLAY ANIMATION */
+form {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+form .input-block {
+  animation-name: move;
+  animation-duration: 1s;
+}
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
